@@ -1,0 +1,43 @@
+html {
+    background-color: rgb(52, 52, 54);
+}
+h1 {
+    font-weight: 200px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 100;
+
+}
+
+img {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+
+}
+
+body {
+    background-color: rgb(84, 93, 99);
+    border: 5px solid rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 15%; 
+
+}
+
+p,a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    padding-left:  1em; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
