@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+</head>
+
+<body>
+    <script>
+        function Song(title, artist) {
+            this.title = title;
+            this.artist = artist;
+        }
+
+        Song.prototype.play = function () {
+            console.log(`Playing: ${this.title} by ${this.artist}`);
+        };
+        let song1 = new Song("รักที่ยืมเขามา (hide)", "Gavin D");
+        let song2 = new Song("Dum Dum", "Jeff Satur");
+
+        song1.play();
+        song2.play();
+    </script>
+</body>
+</html>
